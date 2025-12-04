@@ -10,8 +10,8 @@ class AboutMe {
     this.specialisation = ['TypeScript', 'Node.js', 'React'];
 
     this.learningTopicsList = [
-      { goal: this.learning({ goal: 'career evolution', topic: 'AI Engineering' }), topic: 'AI Engineering' },
-      { goal: this.learning({ goal: 'personal growth', topic: 'Spanish' }), topic: 'Spanish' },
+      { topic: 'AI Engineering' , goal: this.learning({ topic: 'AI Engineering', goal: 'career evolution' })},
+      { topic: 'Spanish', goal: this.learning({ topic: 'Spanish', goal: 'personal growth' }), },
     ];
   }
 
@@ -25,7 +25,7 @@ class AboutMe {
     return await goal;
   };
 
-  public writeArticlesOn = async (personalBlog: `https://nicobees.github.io/blog/`) => {
+  public writeArticlesOn = async (personalBlog: 'https://nicobees.github.io/blog/') => {
     return await fetch(personalBlog);
   };
 
@@ -33,9 +33,9 @@ class AboutMe {
     return this.specialisation.filter((spec) => spec === topic);
   };
 
-  public howToReachMe = async (linkedinProfile: `https://www.linkedin.com/in/nicolaabis/`) => {
+  public howToReachMe = async (linkedinProfile: 'https://www.linkedin.com/in/nicolaabis/') => {
     await fetch(linkedinProfile);
 
-    return 'Nice to meet you!';
+    return 'Nice to meet you! ✨';
   };
 }
