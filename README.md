@@ -85,7 +85,7 @@ Working on various personal projects to explore new technologies and improve my 
   
   [![GitHub](https://img.shields.io/badge/GitHub-nicobees-181717?style=for-the-badge&logo=github)](https://github.com/nicobees)
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/nicobees)
-  [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+  [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:nicolas@example.com)
   [![Twitter](https://img.shields.io/badge/Twitter-Follow-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/nicobees)
   
 </div>
